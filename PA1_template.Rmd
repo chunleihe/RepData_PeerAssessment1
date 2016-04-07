@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: 'Reproducible Research: Peer Assessment 1'
 author: "Chun Lei He"
 date: "April 7, 2016"
@@ -85,10 +86,30 @@ interval_max_steps
 ```
 
 ###The `r  interval_max_steps ` minute contains the maximum number of steps on average across all the days
+=======
+title: "Reproducible Research: Peer Assessment 1"
+output: 
+  html_document:
+    keep_md: true
+---
+
+
+## Loading and preprocessing the data
+
+
+
+## What is mean total number of steps taken per day?
+
+
+
+## What is the average daily activity pattern?
+
+>>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
 
 
 ## Imputing missing values
 
+<<<<<<< HEAD
 ###1. Calculate and report the total number of missing values in the dataset
 ###2. Replacethe missing values in the dataset by mean of each day
 ###3. Create a new dataset with the missing data refilled
@@ -142,3 +163,8 @@ tapply(meansteps$steps,meansteps$day_type,
 function (x) { c(MINIMUM=min(x),MEAN=mean(x),
 MEDIAN=median(x),MAXIMUM=max(x))})
 ```
+=======
+
+
+## Are there differences in activity patterns between weekdays and weekends?
+>>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
